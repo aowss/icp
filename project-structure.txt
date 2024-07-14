@@ -1,0 +1,72 @@
+hello
+├── .azle
+│   └── hello_backend
+│       ├── canister
+│       │   ├── src
+│       │   └── Cargo.toml
+│       ├── canister_methods
+│       │   ├── src
+│       │   └── Cargo.toml
+│       ├── Cargo.lock
+│       ├── Cargo.toml
+│       ├── canister.wasm
+│       └── hello_backend.wasm
+├── .dfx
+│   └── local
+│       ├── canisters
+│       │   ├── hello_backend
+│       │   ├── hello_frontend
+│       │   └── idl
+│       ├── lsp
+│       │   ├── bd3sg-teaaa-aaaaa-qaaba-cai.did
+│       │   └── bkyz2-fmaaa-aaaaa-qaaaq-cai.did
+│       ├── canister_ids.json
+│       └── network-id
+├── src
+│   ├── declarations
+│   │   ├── hello_backend
+│   │   │   ├── hello_backend.did
+│   │   │   ├── hello_backend.did.d.ts
+│   │   │   ├── hello_backend.did.js
+│   │   │   ├── index.d.ts
+│   │   │   └── index.js
+│   │   └── hello_frontend
+│   │       ├── hello_frontend.did
+│   │       ├── hello_frontend.did.d.ts
+│   │       ├── hello_frontend.did.js
+│   │       ├── index.d.ts
+│   │       └── index.js
+│   ├── hello_backend
+│   │   ├── src
+│   │   │   └── index.ts
+│   │   ├── hello_backend.did
+│   │   └── package.json
+│   └── hello_frontend
+│       ├── dist
+│       │   ├── assets
+│       │   ├── .ic-assets.json5
+│       │   ├── favicon.ico
+│       │   ├── index.html
+│       │   └── logo2.svg
+│       ├── public
+│       │   ├── .ic-assets.json5
+│       │   ├── favicon.ico
+│       │   └── logo2.svg
+│       ├── src
+│       │   ├── App.vue
+│       │   ├── index.scss
+│       │   ├── main.js
+│       │   └── vite-env.d.ts
+│       ├── index.html
+│       ├── package.json
+│       ├── tsconfig.json
+│       └── vite.config.js
+├── .env
+├── .gitignore
+├── README.md
+├── dfx.json
+├── package-lock.json
+├── package.json
+└── tsconfig.json
+
+24 directories, 45 files
